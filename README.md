@@ -3,8 +3,6 @@ Home Assistant integration for monitoring NSW Return and Earn RVM locations — 
 
 # Return and Earn
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
-
 Monitors NSW Return and Earn RVM locations with live status from the TOMRA API.
 
 ## Installation
