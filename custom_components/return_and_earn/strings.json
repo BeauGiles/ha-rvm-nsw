@@ -1,0 +1,109 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a Return and Earn Location",
+        "description": "Choose how to find the location you want to monitor.",
+        "data": {
+          "search_method": "Search method"
+        }
+      },
+      "pick_near_home": {
+        "title": "Select a Location",
+        "description": "Showing the nearest locations to your Home Assistant home address.",
+        "data": {
+          "location_uuid": "Location"
+        }
+      },
+      "address": {
+        "title": "Search by Address",
+        "description": "Enter a suburb, address or landmark in NSW. If the address is not found, all NSW locations will be shown alphabetically.",
+        "data": {
+          "search_address": "Address or suburb"
+        }
+      },
+      "pick_near_address": {
+        "title": "Select a Location",
+        "description": "Showing the nearest locations to the address you entered.",
+        "data": {
+          "location_uuid": "Location"
+        }
+      },
+      "manual_uuid": {
+        "title": "Enter Location UUID",
+        "description": "Find the UUID by visiting returnandearn.org.au/map, clicking a location pin, and copying the UUID from the network request URL (the string after /details/).",
+        "data": {
+          "location_uuid": "Location UUID"
+        }
+      },
+      "poll_interval": {
+        "title": "Poll Interval",
+        "description": "How often to check the status of this location.",
+        "data": {
+          "poll_interval": "Poll interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the TOMRA API. Check your internet connection and try again.",
+      "invalid_selection": "Please select a location.",
+      "invalid_uuid": "UUID cannot be empty.",
+      "empty_address": "Please enter an address or suburb."
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Reconfigure Location",
+        "description": "Change the monitored location or adjust the poll interval.",
+        "data": {
+          "search_method": "Search method"
+        }
+      },
+      "pick_near_home": {
+        "title": "Select a Location",
+        "description": "Showing the nearest locations to your Home Assistant home address.",
+        "data": {
+          "location_uuid": "Location"
+        }
+      },
+      "address": {
+        "title": "Search by Address",
+        "description": "Enter a suburb, address or landmark in NSW. If the address is not found, all NSW locations will be shown alphabetically.",
+        "data": {
+          "search_address": "Address or suburb"
+        }
+      },
+      "pick_near_address": {
+        "title": "Select a Location",
+        "description": "Showing the nearest locations to the address you entered.",
+        "data": {
+          "location_uuid": "Location"
+        }
+      },
+      "manual_uuid": {
+        "title": "Enter Location UUID",
+        "description": "Find the UUID by visiting returnandearn.org.au/map, clicking a location pin, and copying the UUID from the network request URL (the string after /details/).",
+        "data": {
+          "location_uuid": "Location UUID"
+        }
+      },
+      "poll_interval": {
+        "title": "Poll Interval",
+        "description": "How often to check the status of this location.",
+        "data": {
+          "poll_interval": "Poll interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the TOMRA API. Check your internet connection and try again.",
+      "invalid_selection": "Please select a location.",
+      "invalid_uuid": "UUID cannot be empty.",
+      "empty_address": "Please enter an address or suburb."
+    }
+  }
+}

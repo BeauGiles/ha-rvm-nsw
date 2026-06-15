@@ -1,0 +1,10 @@
+{
+  "domain": "return_and_earn",
+  "name": "Return and Earn",
+  "version": "1.0.0",
+  "documentation": "https://github.com/BeauGiles/ha-rvm-nsw",
+  "codeowners": ["@BeauGiles"],
+  "issue_tracker": "https://github.com/BeauGiles/ha-rvm-nsw/issues",
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}

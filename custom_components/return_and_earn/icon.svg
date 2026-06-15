@@ -1,0 +1,32 @@
+<svg width="256" height="256" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Return and Earn logo</title>
+  <desc>Two white bottle silhouettes behind a central white can with recycling symbol cut out, on green background</desc>
+
+  <defs>
+    <mask id="can-mask">
+      <rect x="210" y="170" width="260" height="370" rx="28" fill="white"/>
+      <rect x="232" y="138" width="216" height="50" rx="20" fill="white"/>
+      <rect x="255" y="118" width="170" height="36" rx="15" fill="white"/>
+      <ellipse cx="340" cy="112" rx="24" ry="11" fill="white"/>
+      <ellipse cx="340" cy="112" rx="13" ry="6" fill="black"/>
+      <ellipse cx="340" cy="540" rx="130" ry="22" fill="white"/>
+      <g transform="translate(250, 275) scale(11.25)">
+        <path d="M5.68623 0H10.3138L12.178 3.27835L13.9282 2.26789L14.4282 3.13392L13.3301 7.232L9.23203 6.13392L8.73203 5.26789L10.4459 4.27837L9.15033 2L6.84966 2L6.29552 2.97447L4.56343 1.97445L5.68623 0Z" fill="black"/>
+        <path d="M13.1649 9.05964L13.7039 10.0076L12.6055 12H9.99998L9.99998 9.99995H8.99998L5.99998 12.9999L8.99998 15.9999H9.99998L9.99998 14H13.7868L15.996 9.99242L14.8969 8.05962L13.1649 9.05964Z" fill="black"/>
+        <path d="M3.39445 12H4.49998V14H2.21325L0.00390625 9.99242L1.8446 6.75554L0.0717772 5.732L0.571776 4.86598L4.66986 3.7679L5.76793 7.86598L5.26793 8.732L3.57669 7.75556L2.29605 10.0076L3.39445 12Z" fill="black"/>
+      </g>
+    </mask>
+
+    <symbol id="bottle" viewBox="0 0 100 280">
+      <rect x="18" y="120" width="64" height="148" rx="14" fill="white"/>
+      <path d="M18,120 Q14,80 30,68 L30,50 Q30,44 36,44 L64,44 Q70,44 70,50 L70,68 Q86,80 82,120 Z" fill="white"/>
+      <rect x="36" y="18" width="28" height="34" rx="6" fill="white"/>
+      <rect x="32" y="8" width="36" height="16" rx="6" fill="white"/>
+    </symbol>
+  </defs>
+
+  <rect x="0" y="0" width="680" height="680" rx="120" fill="#5aaa5a"/>
+  <use href="#bottle" x="60" y="140" width="100" height="280" opacity="0.55"/>
+  <use href="#bottle" x="520" y="140" width="100" height="280" opacity="0.55"/>
+  <rect x="0" y="0" width="680" height="680" fill="white" mask="url(#can-mask)"/>
+</svg>
